@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Repair Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FixMyPhone</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to FixMyPhone</h1>
+        <p>Your trusted mobile repair experts. Fast, reliable, and affordable.</p>
+        <button onclick="scrollToSection('services')">Get Started</button>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>Screen Replacement</h3>
+                <p>Cracked screen? We fix it quickly.</p>
+            </div>
+            <div class="service">
+                <h3>Battery Replacement</h3>
+                <p>Extend your phone's life with a new battery.</p>
+            </div>
+            <div class="service">
+                <h3>Water Damage Repair</h3>
+                <p>Rescue your drowned device.</p>
+            </div>
+            <div class="service">
+                <h3>Software Issues</h3>
+                <p>Fix bugs, updates, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of certified technicians with years of experience in mobile repairs. Located in [Your City], we serve customers with quality parts and honest pricing.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Phone: (123) 456-7890 | Email: info@fixmyphone.com | Address: 123 Repair St, City, State</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FixMyPhone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
